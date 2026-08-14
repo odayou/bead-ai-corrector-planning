@@ -1,0 +1,44 @@
+{
+  "project_id": "bead-ai-corrector",
+  "project_name": "拼豆 AI 纠错与引导工具",
+  "project_type": "strategic-planning-only",
+  "status": "planning",
+  "created_at": "2026-08-14",
+  "updated_at": "2026-08-15",
+  "one_liner": "面向拼豆/十字绣/钻石画等网格化手工爱好者的 AI 实物纠错与引导工具",
+  "owner": "odayou",
+  "tags": [
+    "perler-beads",
+    "computer-vision",
+    "mobile-app",
+    "indie-hacker",
+    "cross-stitch",
+    "diamond-painting"
+  ],
+  "stage": {
+    "current": "planning",
+    "next_milestone": "MVP 上线",
+    "harbor_status": "sealed",
+    "product_form": "dual-end",
+    "mini_program_stack": "uni-app + Vue 3 + TypeScript",
+    "app_stack": "Flutter 3 + Dart + flutter_opencv",
+    "ios_strategy": "code-level-full, runtime-platform-switch"
+  },
+  "documents": [
+    { "order": 0, "path": "00-战略总览.md", "status": "completed" },
+    { "order": 1, "path": "01-需求洞察与痛点分析.md", "status": "completed" },
+    { "order": 2, "path": "02-竞争分析与市场机会.md", "status": "completed" },
+    { "order": 3, "path": "03-产品规划.md", "status": "completed-v2" },
+    { "order": 4, "path": "04-技术方案.md", "status": "completed-v2" },
+    { "order": 5, "path": "05-商业路线.md", "status": "completed-v2" },
+    { "order": 6, "path": "06-Harbor止损决策.md", "status": "completed" },
+    { "order": 99, "path": "README.md", "status": "completed-v2" }
+  ],
+  "assumptions_to_validate": [
+    "H1: 用户愿意为俯拍自动找错付费",
+    "H2: 分色号引导效率高于按区域摆",
+    "H3: CV 准确率>90% 用户足够满意",
+    "H4: 3次/天免费限制合理",
+    "H5: 小红书/抖音获客成本<¥5/用户"
+  ]
+}
